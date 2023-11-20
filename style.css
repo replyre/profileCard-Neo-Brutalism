@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+/* .box .group {
+  position: fixed;
+  width: 558px;
+  height: 533px;
+  top: 0;
+  left: 0;
+} */
+
+.box .overlap-group {
+  position: relative;
+  width: 469px;
+  height: 513px;
+  top: 8px;
+  left: 10px;
+}
+
+.box .rectangle {
+  position: absolute;
+  width: 320px;
+  height: 451px;
+  top: 0;
+  left: 71px;
+}
+
+.box .img {
+  position: absolute;
+  width: 349px;
+  height: 71px;
+  top: 283px;
+  left: 120px;
+}
+
+.box .div {
+  position: absolute;
+  width: 134px;
+  height: 35px;
+  top: 298px;
+  left: 304px;
+  background-color: #ffff00;
+  border: 5px solid;
+  border-color: #000000;
+}
+
+.box .full-stack-developer {
+  position: absolute;
+  width: 248px;
+  height: 21px;
+  top: 305px;
+  left: 184px;
+}
+
+.box .star {
+  position: absolute;
+  width: 126px;
+  height: 125px;
+  top: 388px;
+  left: 0;
+}
+
+.box .rectangle-2 {
+  position: absolute;
+  width: 220px;
+  height: 257px;
+  top: 30px;
+  left: 120px;
+}
+
+.box .group-2 {
+  position: absolute;
+  width: 179px;
+  height: 160px;
+  top: 47px;
+  left: 139px;
+  background-image: url(./img/rectangle-1503.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.box .replyre {
+  position: absolute;
+  width: 163px;
+  height: 29px;
+  top: 233px;
+  left: 154px;
+}
+
+.box .star-2 {
+  position: absolute;
+  width: 79px;
+  height: 79px;
+  top: 13px;
+  left: 281px;
+}
+
+.box .image {
+  width: 60px;
+  height: 61px;
+  top: 365px;
+  left: 122px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.box .image-2 {
+  width: 64px;
+  height: 73px;
+  top: 359px;
+  left: 196px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.box .image-3 {
+  width: 64px;
+  height: 61px;
+  top: 365px;
+  left: 274px;
+  position: absolute;
+  object-fit: cover;
+}
